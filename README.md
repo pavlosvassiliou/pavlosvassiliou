@@ -40,7 +40,7 @@ My personal Chief of Staff — deployed on Google Cloud, talks through Slack, th
 │   ├── Google Calendar                               │
 │   ├── Gmail                                         │
 │   ├── Google Drive / Docs / Sheets / Slides         │
-│   └── 🔜 Amplitude · Notion · HubSpot              │
+│   └── 🔜 Amplitude · Notion · HubSpot                │
 └─────────────────────────────────────────────────────┘
 ```
 
