@@ -20,9 +20,12 @@ I also build AI tools to make small teams dangerously effective.
 
 ---
 
-## ⚡ Current Build: Freud — AI Chief of Staff
+## 🚀 Featured Projects
 
-> An AI agent that handles operations so I don't have to.
+### ⚡ Freud — AI Chief of Staff
+> An AI agent that runs operations so I don't have to.
+
+My personal Chief of Staff — deployed on Google Cloud, talks through Slack, thinks with Claude. Handles morning briefings, email triage, meeting prep, action tracking, and document creation. Learns from every conversation through a live context graph with weekly synthesis.
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -38,10 +41,59 @@ I also build AI tools to make small teams dangerously effective.
 │   ├── Gmail                                         │
 │   ├── Google Drive / Docs / Sheets / Slides         │
 │   └── 🔜 Amplitude · Notion · HubSpot              │
-│                                                     │
-│   Next: Agent Builder — a meta-agent that deploys   │
-│         new agents through 9 knowledge buckets      │
 └─────────────────────────────────────────────────────┘
+```
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
+
+---
+
+### 🏗️ Agent Builder — Meta-Agent Framework
+> An agent that builds other agents.
+
+A separate agent that walks you through 9 knowledge buckets (role, principal, company, team, ecosystem, operating rhythm, current state, rules, marketing & brand) to configure and deploy new specialised agents. Same infrastructure, different brains.
+
+```
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│  Freud (CoS) │     │  Compliance  │     │    Sales     │     │  Customer    │
+│              │     │   checker    │     │   enabler    │     │    intel     │
+└──────┬───────┘     └──────┬───────┘     └──────┬───────┘     └──────┬───────┘
+       │                    │                    │                    │
+       └────────────────────┴────────────────────┴────────────────────┘
+                                    │
+                        ┌───────────┴───────────┐
+                        │    Agent Builder      │
+                        │  9 knowledge buckets  │
+                        └───────────────────────┘
+```
+
+---
+
+### 🖥️ Command Centre — Operations Dashboard
+> The first screen you see when you open your laptop.
+
+A Next.js web dashboard that replaces Gmail as the morning view. Three-panel layout: agent/project switcher, chat interface, and live data (calendar, priorities, metrics). Reads from the same Firestore backend as Freud — one brain, multiple surfaces.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+
+---
+
+### 📚 Company Brain — Knowledge Base System
+> The foundation new hires build on top of.
+
+A 9-document knowledge architecture for Flow Neuroscience — from clinical evidence to brand guidelines. Includes a **Claims Matrix** (37 approved marketing claims with exact approved language, channel restrictions, and evidence references) and a **Comms Regulations** layer covering ASA, FDA, MDR, and platform-specific ad policies. Every AI tool at Flow reads from this brain.
+
+```
+Science ─→ Regulatory ─→ Claims Matrix ─→ Brand Guidelines ─→ Content
+   │            │              │                  │               │
+   └────────────┴──────────────┴──────────────────┴───────────────┘
+                          Company Brain
+              One update benefits every tool and person
 ```
 
 ---
@@ -54,10 +106,11 @@ I also build AI tools to make small teams dangerously effective.
 ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Slack API](https://img.shields.io/badge/Slack_API-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Claude_API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 </div>
 
@@ -68,7 +121,7 @@ I also build AI tools to make small teams dangerously effective.
 ```typescript
 const pavlos = {
     role: "Commercial Head — Flow Neuroscience",
-    building: "Freud — AI Chief of Staff agent",
+    building: "AI agents that replace the ops hire you can't afford yet",
     interests: [
         "AI agents for operational leverage",
         "Health tech commercialisation",
@@ -96,15 +149,20 @@ const pavlos = {
 
 ---
 
-## 🏗️ Roadmap
+## 🗺️ Roadmap
 
 - [x] Deploy Freud agent on GCP with Slack interface
 - [x] Google Calendar, Gmail, Drive integration
 - [x] Multi-tenant Firestore context graph
+- [x] 9-document Company Brain knowledge base
+- [x] Claims Matrix with 37 approved claims
+- [x] Live context capture + weekly synthesis
+- [x] Action item tracking from natural conversation
 - [ ] Agent Builder — meta-agent for deploying new agents
-- [ ] Command centre web dashboard (chat, live data, priorities)
+- [ ] Command Centre web dashboard
 - [ ] Amplitude / Notion / HubSpot integrations
 - [ ] Multiple output channels (Slack, email, web)
+- [ ] Management UI for knowledge buckets
 
 ---
 
