@@ -98,6 +98,36 @@ Science ─→ Regulatory ─→ Claims Matrix ─→ Brand Guidelines ─→ Co
 
 ---
 
+### 🎙️ Cultura — AI-Native Creator Intelligence Platform
+> Manage, monitor, and extract intelligence from creator and KOL networks in regulated industries.
+
+A multi-tenant SaaS platform built for medical devices, pharma, and fintech — where creator relationships carry regulatory weight. Live in production with a paying client tracking ~106 creators across a multi-user workspace.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        CULTURA                              │
+│                                                             │
+│   Manage ────── CRM pipeline, touchpoints, fulfilment       │
+│   Listen ────── Multi-platform monitoring + AI flagging     │
+│   Accumulate ── Longitudinal data banking over time         │
+│   Synthesise ── LLM-powered brand narrative mapping         │
+│                                                             │
+│   Sources:                                                  │
+│   ├── Instagram · LinkedIn · YouTube · Podcasts             │
+│   ├── Academic publications                                 │
+│   └── Email (SendGrid Inbound Parse)                        │
+│                                                             │
+│   Agent layer: MCP server with 23 tools                     │
+└─────────────────────────────────────────────────────────────┘
+```
+
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Claude API](https://img.shields.io/badge/Claude_API-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat-square&logoColor=black)
+
+---
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -105,6 +135,8 @@ Science ─→ Regulatory ─→ Claims Matrix ─→ Brand Guidelines ─→ Co
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Slack API](https://img.shields.io/badge/Slack_API-4A154B?style=for-the-badge&logo=slack&logoColor=white)
@@ -158,6 +190,7 @@ const pavlos = {
 - [x] Claims Matrix with 37 approved claims
 - [x] Live context capture + weekly synthesis
 - [x] Action item tracking from natural conversation
+- [x] Cultura SaaS platform live with paying client
 - [ ] Agent Builder — meta-agent for deploying new agents
 - [ ] Command Centre web dashboard
 - [ ] Amplitude / Notion / HubSpot integrations
